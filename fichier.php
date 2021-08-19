@@ -57,5 +57,40 @@
     else{
         echo "Tu peux te le permettre";
     }
+    echo "<br><br>";
 
+?>
+
+<?php
+    //6ème exo
+    echo "Exercice 6 <br><br>";
+    $age = 18;
+    if($age >= 18)
+    {
+        echo "Tu es majeur(e)";
+    }
+    else
+    {
+        echo "Tu es mineur(e)";
+    }
+    echo "<br><br>";
+?>
+
+<?php
+    //7ème exo
+    echo "Exercice 7 <br><br>";
+    $heure = 12;
+    if($heure < 12)
+    {
+        echo "C'est le matin";
+    }
+    else if($heure > 12)
+    {
+        echo "C'est l'après-midi";
+    }
+    else
+    {
+        
+    }
+    
 ?>
