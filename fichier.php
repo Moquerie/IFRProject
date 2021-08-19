@@ -1,0 +1,61 @@
+
+<?php
+    // 1er exo
+    echo "Exercice 1 <br> <br>";
+        $note_maths = 15;
+        $note_français = 12;
+        $note_histoire_geo = 9;
+        $moyenne = ($note_maths+$note_français+$note_histoire_geo)/3;
+        echo "La moyenne est de $moyenne / 20 <br><br>";
+?>
+
+<?php
+    // 2ème exo
+    echo "Exercice 2 <br><br>";
+    $prix_ht = 50;
+    $taux_tva = 20;
+     //(prixHT * tauxTVA/100)+ prixHT
+     //prixHT * (1 + TVA / 100)
+     $prix_ttc = $prix_ht * (1 + $taux_tva / 100);
+     echo "La prix TTC est de $prix_ttc € <br><br>"; 
+?>
+
+<?php
+    //3ème exo
+    echo "Exercice 3 <br><br>";
+
+    $test = '42';
+
+    var_dump($test);
+    echo "<br><br>";
+?>
+
+<?php
+    //4ème exo
+    echo "Exercice 4 <br><br>";
+    $sexe = "male";
+    if($sexe == "male")
+    {
+        echo "Salut gros male !";
+    }
+    else
+    {
+        echo "Salut soeurette !";
+    }
+    echo "<br><br>";
+?>
+
+<?php
+    //5ème exo
+    echo "Exercice 5 <br><br>";
+    $budget = 1553.89;
+    $achats = 1554.76;
+    if($budget < $achats)
+    {
+        echo "Tu es pauvre";
+    }
+    else{
+        echo "Tu peux te le permettre";
+    }
+
+?>
