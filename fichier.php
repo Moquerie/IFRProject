@@ -125,10 +125,22 @@
         {
             echo "$nombre <br>";
         }
-        
-         
         $nombre+=2;
-    }
-    
+    } 
+    echo "<br><br>";   
+?>
+
+<?php
+    //10ème exo
+    echo "Exercice 10 <br><br>";
+    $coordonnees = array (
+        "France" => "Paris",
+        "Allemagne" => "Berlin",
+        "Italie" => "Rome",
+    );
+        foreach($coordonnees as $elements)
+        {
+            echo "$elements <br>";
+        }
     
 ?>
