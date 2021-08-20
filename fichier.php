@@ -79,18 +79,56 @@
 <?php
     //7ème exo
     echo "Exercice 7 <br><br>";
-    $heure = 12;
+    $heure = 19;
+    $heure_soir = 18;
     if($heure < 12)
     {
         echo "C'est le matin";
     }
-    else if($heure > 12)
+    else if($heure > 12 AND $heure < 18)
     {
         echo "C'est l'après-midi";
     }
+    else if($heure >= 18)
+    {
+        echo "C'est le soir";
+    }
     else
     {
-        
+        echo " On est perdu la mon gars";
     }
+    echo "<br><br>";
+    
+?>
+
+<?php
+    //8ème exo
+    echo "Exercice 8 <br><br>";
+    for ($nombre = 0; $nombre <= 100; $nombre +=5)
+    {
+        echo "On en est à $nombre de la table de 5 <br>";
+    }
+    echo "<br><br>";
+?>
+
+<?php
+    //9ème exo
+    echo "Exercice 9 <br><br>";
+    $nombre = 0;
+    while($nombre <=20)
+    {
+        if($nombre == 10)
+        {
+            echo "<strong> $nombre </strong> <br>";
+        }
+        else
+        {
+            echo "$nombre <br>";
+        }
+        
+         
+        $nombre+=2;
+    }
+    
     
 ?>
